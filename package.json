@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "docker-image": "docker build -t jeffapotamous/nococustompcs:0.0.1-beta . && docker push jeffapotamous/nococustompcs:0.0.1-beta"
   },
   "dependencies": {
     "react": "^18.3.1",
